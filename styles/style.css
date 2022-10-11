@@ -1,0 +1,142 @@
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-logo{
+    font-family: "poppins";
+    font-size: 28px;
+    ccolor: #323232;
+    font-weight: 900;
+    max-width: 194px;
+    height: 24px;
+    padding-left: 112px;
+    padding-top: 40px;
+}
+.nav-li{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: #323232;
+    padding-top: 40px;
+    margin-left: 32px;
+}
+.header-button{
+    background-color: #8D645A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border-radius: 6px;
+    width: 160px;
+    height: 56px;
+    color: #fff;
+    margin: 16px 40px;
+}
+.image-wraper{
+    width: 100%;
+    height: 1000px;
+    background-image: url(./assets/drinkhot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.spec-p{
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.drink-p{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    margin-left: 40px;
+}
+
+
+.image-wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-wraper{
+    background-image: url(./assets/vector5.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 250px;
+    padding-left: 112px;
+}
+.about-h3{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "poppins";
+    margin-top: 80px;
+}
+.about-p{
+    color: #747579;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "poppins";
+    
+   
+}
+.about-button{
+    background-color: #8D645A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border-radius: 6px;
+    width: 160px;
+    height: 56px;
+    color: #fff;
+}
+.gallery-container{
+    margin-top: 120px;
+}
+.gallery-h{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+}
+.gallery-p{
+    color: #747579;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 48px;
+    
+    margin-top: 20px;
+}
+.gallery-img-wraper{
+   
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.gallery-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.explore-button{
+    background-color: #8D645A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border-radius: 6px;
+    width: 160px;
+    height: 56px;
+    color: #fff;       
+}
