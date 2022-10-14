@@ -75,11 +75,11 @@
     display: flex;
     justify-content: center;
     width: 100%;
-}
-.about-wraper{
     background-image: url(./assets/vector5.svg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.about-wraper{
     max-width: 1216px   ;
 }
 .about-h3{
@@ -163,6 +163,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background-image: url(./assets/vector5.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .blog-wraper{
     display: flex;
@@ -219,13 +222,138 @@
     color: #747579;
     font-size: 16px;
     font-family: "poppins";
+    max-width: 594px;
 }
 .contact-section{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 120px;
+    background-image: url(./assets/vector9.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 120px;
 }
 .contact-container{
-    max-width: 1216px;
+    width: 1216px;
+    display: flex;
+    justify-content: space-between;
+}
+.touch-wraper{
+    display: flex;
+    margin-top: 20px;
+}
+.touch-p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 14px;
+    
+}
+.contact-text{
+    margin-bottom: 60px;
+}
+.form-label{ 
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 564px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    border-radius: 8px;
+}
+.form-input{
+    width: 442px;
+    height: 56px;
+    border: 1px solid #C8D2DC;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.form-input1{
+    width: 442px;
+    height: 146px;
+    border: 1px solid #C8D2DC;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.input-wraper{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color: #C8D2DC;
+    padding-left: 10px;
+}
+.checkbox-wraper{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.checkbox-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #323232;
+}
+ .checkbox{
+    margin-left: 60px;
+ }
+.submit-button{
+    background-color: #8D645A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border-radius: 6px;
+    width: 442px;
+    height: 56px;
+    color: #fff;
+    border:unset;
+    padding: 16px 40px;       
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #DBE2DC;
+    margin-top: 51px;
+    padding: 100px 0 ;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.company-wraper{
+    max-width: 281px;
+}
+.footer-p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323232;
+}
+.footer-heading{
+    color: #323232;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.icons-wraper i {
+    width: 30px;
+    height: 30px;
 }
