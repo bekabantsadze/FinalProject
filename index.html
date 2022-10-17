@@ -24,8 +24,9 @@
             <div class="navigation-logo">
                 <a class="logo" href="logo">CoffeeShop</a>
             </div>  
+
             <nav class="header-navigation">
-            <ul>
+            <ul class="header-ul">
                 <li class="nav-li">Home</li>
                 <li class="nav-li">About us</li>
                 <li class="nav-li">Gallery</li>
@@ -35,11 +36,20 @@
             </nav>
             <button class="header-button">
             Contact us
-            </button>
-            <div class="burgerbar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            </button>   
+            <a class="burgerbar" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./styles/assets/burger-bar.png" alt="burgerbarlogo">
+            </a>
         </div>
+        <div class="topnav">
+            <div id="myLinks">
+              <a href="#news">Home</a>
+              <a href="#contact">About us</a>
+              <a href="#about">Gallery</a>
+              <a href="#blog">Blog</a>
+              <a href="#FAQ">FAQ</a>
+            </div>
+          </div>
 
     </header>
     
@@ -94,6 +104,16 @@
                 <img src="./styles/assets/gallery5.png" alt="">
                 <img src="./styles/assets/gallery6.png" alt="">
                 <img src="./styles/assets/gallery7.png" alt="">
+                <img src="./styles/assets/gallery8.png" alt="">
+            </div>
+            <div class="gallery-img-wraper-mobile">
+                <img src="./styles/assets/gallery1.png" alt="">
+                <img src="./styles/assets/gallery4.png" alt="">
+                <img src="./styles/assets/gallery2.png" alt="">
+                <img src="./styles/assets/gallery3.png" alt="">
+                <img src="./styles/assets/gallery6.png" alt="">
+                <img src="./styles/assets/gallery7.png" alt="">
+                <img src="./styles/assets/gallery5.png" alt="">
                 <img src="./styles/assets/gallery8.png" alt="">
             </div>
             <div class="gallery-button">
@@ -185,25 +205,25 @@
 
                 </div>
             </div>
-            <form class="form-container" action="">
+            <form class="form-container" action="submit">
                 <div class="input-wraper">
-                  <label class="form-label" for="">Name*</label>
-                  <input class="form-input" type="text" name="first name" id="" placeholder="name">  
+                  <label class="form-label" for="name">Name*</label>
+                  <input class="form-input" type="text" name="first name" placeholder="name">  
                 </div>
                 <div class="input-wraper">
-                  <label class="form-label" for="">Phone Number*</label>
-                  <input class="form-input" type="text" name="first name" id="" placeholder="+995571221721">  
+                  <label class="form-label" for="number">Phone Number*</label>
+                  <input class="form-input" type="text" name="first name"  placeholder="+995571221721">  
                 </div>
                 <div class="input-wraper">
-                  <label class="form-label" for="">Email *</label>
-                  <input class="form-input" type="text" name="first name" id="" placeholder="email@example.com">  
+                  <label class="form-label" for="email">Email *</label>
+                  <input class="form-input" type="text" name="first name"  placeholder="email@example.com">  
                 </div>
                 <div class="input-wraper">
-                  <label class="form-label" for="">Your message *</label>
-                  <input class="form-input1" type="text" name="first name" id="" placeholder="Type here">  
+                  <label class="form-label" for="massage">Your message *</label>
+                  <input class="form-input1" type="text" name="first name" placeholder="Type here">  
                 </div>
                 <div class="checkbox-wraper">
-                    <input class="checkbox1" type="checkbox" name="checkbox" id="" >
+                    <input class="checkbox1" type="checkbox" name="checkbox" >
                     <p class="checkbox-p">Save my name, email,and website in this browser for the next time I contact</p>
                 </div>
                 <button class="submit-button" id="submit">

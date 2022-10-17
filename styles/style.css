@@ -10,18 +10,17 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
 }
 .navigation-logo{
     font-family: "poppins";
     font-size: 28px;
     color: #323232;
     font-weight: 900;
-    max-width: 194px;
     height: 24px;
     padding-left: 112px;
-    padding-top: 40px;
 }
 .logo{
     color: #8D645A;
@@ -33,9 +32,38 @@
     font-weight: 400;
     font-size: 16px;
     color: #323232;
-    padding-top: 40px;
     margin-left: 32px;
 }
+
+
+.header-ul{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ 
+
+.nav-li::before{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    opacity: 0;
+}
+.nav-li::after{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    opacity: 1;
+}
+.nav-li:hover::before{
+    opacity: 0;
+}
+.nav-li:hover::after{
+    opacity: 1;
+}
+
 .header-button{
     background-color: #8D645A;
     font-size: 16px;
@@ -46,10 +74,6 @@
     height: 56px;
     color: #fff;
     margin: 16px 40px;
-}
-.burgerbar{
-    display: none;
-
 }
 .image-wraper{
     width: 100%;
@@ -169,7 +193,7 @@
     text-align: center;
 }
 .gallery-img-wraper{
-   
+/*    
     display: -ms-grid;
    
     display: grid; 
@@ -179,7 +203,12 @@
     margin-top: 40px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
+            justify-content: center; */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
             justify-content: center;
+            margin-top: 40px;
 }
 .gallery-button{
     display: -webkit-box;
