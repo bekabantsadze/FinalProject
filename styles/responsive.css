@@ -89,4 +89,30 @@
       display: none;
     }
   }
+  @media (max-width: 880px){
+    .blog-wraper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
   
+    }
+  }
+  @media (max-width: 880px){
+    .blog-p{
+      font-size: 12px;
+    }
+  }
+@media (max-width:880px){
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:880px){
+  .foter-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
