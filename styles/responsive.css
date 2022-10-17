@@ -1,0 +1,9 @@
+@media (max-width:1024px) {
+    .burgerbar{
+        display: block;
+        align-self: center;
+    }
+    .header-navigation{
+        display: none;
+    }
+}

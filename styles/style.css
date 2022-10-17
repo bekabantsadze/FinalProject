@@ -47,6 +47,10 @@
     color: #fff;
     margin: 16px 40px;
 }
+.burgerbar{
+    display: none;
+
+}
 .image-wraper{
     width: 100%;
     height: 1000px;
