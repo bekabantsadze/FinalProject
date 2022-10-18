@@ -103,6 +103,13 @@
 
     }
   }
+  @media(max-width:720px){
+    .blog-img{
+      display: flex;
+      margin: 0 auto;
+      max-width: 80%;
+    }
+  }
     
   @media (max-width:720px)  {
     .about-button{
@@ -133,8 +140,8 @@
   @media (max-width:320px)  {
     .about-button{
       font-size: 13px;
-      width: 364px;
-      height: 56px;
+      max-width: 364px;
+      
       
     }
     
@@ -169,7 +176,7 @@
   @media (max-width:720px){
     .explore-button{
       font-size: 13px;
-      width: 364px;
+      max-width: 364px;
       height: 56px;
     }
   }
@@ -225,6 +232,15 @@
       font-size: 12px;
     }
    }
+   @media (max-width:320px){
+    .blog-h{
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+    }
+   }
+
    @media (max-width:720px){
     .blog-p{
       font-size: 15px;
@@ -233,13 +249,15 @@
    @media (max-width:720px){
     .blog-p{
       font-size: 12px;
+      width: 200px;
     }
    }
    @media (max-width:720px){
     .blog-button{
       font-size: 13px;
-      width: 364px;
+      max-width: 364px;
       height: 56px;
+      margin-top: 10px;
     }
   }
   @media (max-width:720px){
@@ -259,12 +277,14 @@
    @media (max-width:320px){
     .contact-h{
       font-size: 15px;
+      margin-left: 15px;
     }
 
    }
    @media (max-width:320px){
     .contact-p{
       font-size: 13px;
+      margin-left: 15px;
     }
    }
    @media (max-width:720px){
@@ -275,6 +295,7 @@
    @media (max-width:320px){
     .touch-p{
       font-size: 13px;
+      margin-left: 15px;
     }
    }
    @media (max-width:720px){
@@ -290,6 +311,11 @@
    @media (max-width:720px){
     .form-input1{
       width: 300px;
+    }
+   }
+   @media (max-width:320px){
+    .form-input1{
+      width: 200px;
     }
    }
    @media (max-width:400px){
@@ -309,6 +335,7 @@
    }
    @media (max-width:400px){
     .socialicons-wraper{
+
       margin-top: 20px;
       
     }
@@ -319,7 +346,79 @@
     .footer-container{
       display: flex;
       flex-direction: column;
+      margin-left: 15px;
       
     }
    }
+   @media (max-width:320px){
+    .logo{
+     font-size: 15px;
+      
+    }
+   }
+   @media (max-width:320px){
+    .header-button{
+     display: none;
+      
+    }
+   }
+   @media (max-width:320px){
+    .burgerbar{
+     width: 20px;
+     height: 20px;
+      
+    }
+   }
+   @media (max-width:320px){
+    .text-wraper{
+      width: 300px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .spec-p{
+      font-size: 15px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .drink-p{
+      font-size: 20px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .vector1{
+      width: 200px;
+      margin-left: 25px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .vector2  {
+      width: 200px;
+      margin-left: 25px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .form-label{
+      
+      margin-left: 25px;
+   
+      
+    }
+   }
+   @media (max-width:320px){
+    .checkbox-p{
+      font-size: 13px;
+      width: 200px;
+    }
+  }
+   
    
