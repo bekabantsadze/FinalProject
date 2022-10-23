@@ -38,7 +38,11 @@
   .gallery-img-wraper-mobile{
     display: none;
 }
-
+@media (max-width:1024px){
+  .header-button{
+    display: none;
+  }
+}
   @media (max-width:1024px){
     .topnav{
         display: block;
