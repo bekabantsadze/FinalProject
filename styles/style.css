@@ -216,6 +216,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            
 }
 .about-section{
     display: -webkit-box;
@@ -227,7 +228,7 @@
     width: 100%;
     background-image: url(./assets/vector5.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
 }
 .about-wraper{
     max-width: 1216px   ;
@@ -330,12 +331,7 @@
     height: 56px;
     color: #fff;       
 }
-.blog-container{
-    max-width: 1216px;
-
-}
 .blog-section{
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -380,7 +376,6 @@
 .blog-button{
     color: #8D645A;
     max-width: 210px;
-    width: 100%;
     height: 56px;
     border-radius:10px;
     font-size: 16px;
@@ -415,7 +410,7 @@
     max-width: 594px;
 }
 .contact-section{
-    width: 100%;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -429,7 +424,6 @@
     padding-bottom: 120px;
 }
 .contact-container{
-    width: 1216px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -473,7 +467,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 564px;
     margin-top: 40px;
     -webkit-box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
             box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
