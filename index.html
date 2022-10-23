@@ -23,16 +23,17 @@
         <div class="header-div">
             <div class="navigation-logo">
                 <a class="logo" href="logo">CoffeeShop</a>
-            </div>  
-
-            <nav class="header-navigation">
-            <ul class="header-ul">
-                <li class="nav-li">Home</li>
-                <li class="nav-li">About us</li>
-                <li class="nav-li">Gallery</li>
-                <li class="nav-li">Blog</li>
-                <li class="nav-li">FAQ</li>
-            </ul>
+            </div>   
+            <nav>
+                <div class="header-navigation">
+                    <ul>
+                        <li class="nav-li active"><a href="#home">Home</a></li>
+                        <li class="nav-li"><a href="#about">About us</a></li>
+                        <li class="nav-li"><a href="#gallery">Gallery</a></li>
+                        <li class="nav-li"><a href="#blog">Blog</a></li>
+                        <li class="nav-li"><a href="#contact">FAQ</a></li>
+                    </ul>
+                </div>
             </nav>
             <button class="header-button">
             Contact us
@@ -67,7 +68,7 @@
             </div>
         </div>
     </section>
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="about-wraper">
             <div class="about-text-wraper">
                 <h3 class="about-h3">
@@ -86,7 +87,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="gallery">
         <div class="gallery-container">
             <div class="gallery-text-wraper">
                 <h3 class="gallery-h">
@@ -123,7 +124,7 @@
             </div>
         </div>
     </section>
-    <section class="blog-section">
+    <section class="blog-section" id="blog">
         <div class="blog-container">
             <div class="blog-wraper-h">
                 <h2 class="blog-wraper-h">
@@ -176,7 +177,7 @@
               </div> 
         </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="FAQ    ">
         <div class="contact-container">
             <div class="contact-text-wraper">
                 <div class="contact-text">
@@ -208,19 +209,19 @@
             <form class="form-container" action="submit">
                 <div class="input-wraper">
                   <label class="form-label" for="name">Name</label>
-                  <input class="form-input" type="text" name="first name" placeholder="name">  
+                  <input class="form-input" type="name" name="first name" placeholder="name">  
                 </div>
                 <div class="input-wraper">
                   <label class="form-label" for="number">Phone Number</label>
-                  <input class="form-input" type="text" name="first name"  placeholder="+995571221721">  
+                  <input class="form-input" type="phonenumber" name="phonenuber"  placeholder="+995571221721">  
                 </div>
                 <div class="input-wraper">
                   <label class="form-label" for="email">Email </label>
-                  <input class="form-input" type="text" name="first name"  placeholder="email@example.com">  
+                  <input class="form-input" type="mail" name="mail"  placeholder="email@example.com">  
                 </div>
                 <div class="input-wraper">
                   <label class="form-label" for="massage">Your message </label>
-                  <input class="form-input1" type="text" name="first name" placeholder="Type here">  
+                  <input class="form-input1" type="text" name="description" placeholder="Type here">  
                 </div>
                 <div class="checkbox-wraper">
                     <input class="checkbox1" type="checkbox" name="checkbox">
@@ -233,7 +234,7 @@
 
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="footer-container">
             <div class="company-wraper">
                 <h3 class="footer-heading">Company name</h3>
