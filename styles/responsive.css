@@ -128,7 +128,6 @@
     .about-h3{
       font-size: 15px;
       margin-left: 10px;
-      width: 100%;
       display: flex;
       justify-content: center;
     }
@@ -420,11 +419,61 @@
       
     }
    }
-   @media (max-width:320px){
+   
+   @media (max-width: 450px){
+    .vector1{
+      max-width: 60%;
+      margin-left: 20%;
+    } 
+    .vector2{
+      max-width: 60%;
+      margin-left: 20%;
+      margin-top: -40px;
+    }
+    .spec-p{
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 25%;
+    }
+    .drink-p{
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 34px;
+      margin-left: 25%;
+
+    }
+    .image-wraper{
+      height: 255px;
+    }
+    .submit-button{
+      max-width: 300px;
+    }
+  }
+  @media (max-width: 320px){
     .checkbox-p{
       font-size: 13px;
       max-width: 200px;
     }
+    .vector1{
+      max-width: 80%;
+      margin-left: 10%;
+    } 
+    .vector2{
+      max-width: 80%;
+      margin-left: 10%;
+    }
+    .spec-p{
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 20%;
+    }
+    .drink-p{
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 34px;
+      margin-left: 20%;
+
+    }
   }
-   
-   
